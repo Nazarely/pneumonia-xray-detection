@@ -1,0 +1,44 @@
+# =============================================================================
+# .gitignore — Detección de Neumonía en Radiografías
+# =============================================================================
+
+# ----- Dataset de imágenes -----
+# No subir imágenes (son ~1.2 GB)
+data/chest_xray/
+*.jpeg
+*.jpg
+*.png
+!outputs/figures/*.png    # Sí subir los gráficos generados
+
+# Mantener estructura de carpetas vacías
+!data/.gitkeep
+
+# ----- Modelos entrenados -----
+# Los modelos pueden pesar varios cientos de MB
+outputs/*.keras
+outputs/*.h5
+*.h5
+*.keras
+
+# ----- Archivos de R -----
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rdata
+.Rproj.user/
+*.Rproj
+label_list.Rdata
+
+# ----- Python / reticulate -----
+__pycache__/
+*.py[cod]
+.Python
+.virtualenvs/
+r-tensorflow/
+
+# ----- Sistema operativo -----
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
