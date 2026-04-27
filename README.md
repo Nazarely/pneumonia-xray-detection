@@ -117,7 +117,6 @@ Preprocesamiento (resize 224×224, normalización, aumentación)
 | Sensibilidad     | —        |
 | Especificidad    | —        |
 
-*Completar con los valores reales luego de ejecutar el entrenamiento.*
 
 ### Curvas de entrenamiento
 
@@ -183,11 +182,11 @@ resultado <- predecir_imagen("ruta/a/tu/imagen.jpeg")
 
 ## 👤 Autor
 
-**[Tu nombre]**
-Estudiante de Ciencia de Datos e Inteligencia Artificial
+**[Nazarely Gomez Abularach]**
+T.S en Ciencia de Datos e Inteligencia Artificial
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tu-usuario)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tu-usuario)
+[![LinkedIn](www.linkedin.com/in/nazarely-gomez-abularach)
+[![GitHub](https://github.com/Nazarely)
 
 ---
 
